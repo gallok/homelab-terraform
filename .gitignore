@@ -26,6 +26,7 @@ crash.*
 localstack/.localstack/
 localstack/data/
 localstack/tmp/
+localstack/aws/
 
 # === Archivos del sistema / editor ===
 *.swp
