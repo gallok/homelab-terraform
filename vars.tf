@@ -15,7 +15,7 @@ variable "pve_pass" {
   description = "Proxmox password"
   type        = string
   sensitive   = true
-  default     = "Th3R1pper!"
+  default     = "PASSWORD"
 }
 # PASS DEL USUARIO LINUX ROOT DEL CONTENEDOR LXC
 variable "ct_pass" {
