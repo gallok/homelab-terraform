@@ -37,4 +37,8 @@ Thumbs.db
 # === Carpeta del control de versiones ===
 .git/
 !config/*.tf
+# Archivos grandes o binarios
+*.zip
+*.tar
+*.gz
 
