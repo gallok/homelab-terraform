@@ -1,0 +1,40 @@
+# === Archivos y carpetas sensibles ===
+keys.txt
+.ssh/
+config/
+
+# === Terraform ===
+# Carpetas locales de Terraform
+.terraform/
+
+# Archivos de estado (contienen datos sensibles)
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate.backup
+
+# Bloqueos y logs locales
+*.log
+crash.log
+crash.*
+
+# Archivos generados por plugins o providers
+*.tfplan
+*.tfvars
+*.tfvars.json
+
+# === LocalStack (si genera datos locales) ===
+localstack/.localstack/
+localstack/data/
+localstack/tmp/
+
+# === Archivos del sistema / editor ===
+*.swp
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# === Carpeta del control de versiones ===
+.git/
+!config/*.tf
+
